@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    char c[] = "yourcatiscute";
+    char c[] = "yourcatiscuteabaaa";
     String s(c);
-    cout<<s.Find("cat");
+    cout<<s.Find("y");
     return 0;
 }
