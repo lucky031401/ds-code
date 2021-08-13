@@ -25,7 +25,7 @@ public:
 };
 
 template <class T>
-Queue<T>::Queue(int QueueCapacity):Capacity:(QueueCapacity)
+Queue<T>::Queue(int QueueCapacity):Capacity(QueueCapacity)
 {
     if(Capacity<1)throw "Stack capacity must be >0";
     queue = new T[Capacity];
